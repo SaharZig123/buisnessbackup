@@ -1,7 +1,6 @@
 {
-  "proxy": "http://localhost:5000",
   "name": "businessbackup",
-  "homepage": "https://SaharZig123.github.io/businessbackup",
+  "homepage": "https://saharzig123.github.io/businessbackup",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
