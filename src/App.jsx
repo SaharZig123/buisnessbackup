@@ -8,7 +8,7 @@ import { HomePage } from "./pages/HomePage"
 
 function App() {
   return (
-    <HashRouter>
+    <HashRouter basename="/">
       <div className="App">
         <header>
           <AppHeader />
