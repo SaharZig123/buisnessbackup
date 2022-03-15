@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/businessbackup/static/css/main.c2d56761.css",
+    "main.js": "/businessbackup/static/js/main.ba78a056.js",
+    "static/js/787.5e8c21fe.chunk.js": "/businessbackup/static/js/787.5e8c21fe.chunk.js",
+    "static/media/video.mp4": "/businessbackup/static/media/video.a2703484bb9eee7d0c2e.mp4",
+    "static/media/pexels-sathesh-d-698808.jpg": "/businessbackup/static/media/pexels-sathesh-d-698808.9cf3bc46da53a71731b2.jpg",
+    "static/media/home-img1.jpeg": "/businessbackup/static/media/home-img1.6252aadfdbb70aeaeaab.jpeg",
+    "static/media/home-img2-scaled.jpeg": "/businessbackup/static/media/home-img2-scaled.26b2e9df0fd3ab46ad4f.jpeg",
+    "static/media/Fredoka-Regular.ttf": "/businessbackup/static/media/Fredoka-Regular.f2f1199284ff798422b0.ttf",
+    "static/media/customer-satisfaction.png": "/businessbackup/static/media/customer-satisfaction.d637ca4d824370c06b52.png",
+    "static/media/icon6.jpeg": "/businessbackup/static/media/icon6.0d156d6be12f29f4f154.jpeg",
+    "static/media/testimonial2.jpeg": "/businessbackup/static/media/testimonial2.8f577457f6f8624fe0ab.jpeg",
+    "static/media/testimonial3.jpeg": "/businessbackup/static/media/testimonial3.898b677cd70606dc1d79.jpeg",
+    "static/media/database.png": "/businessbackup/static/media/database.04e2e2c2dda928a25461.png",
+    "static/media/testimonial1.jpeg": "/businessbackup/static/media/testimonial1.970a0eb88c48d5cc5dd4.jpeg",
+    "index.html": "/businessbackup/index.html",
+    "main.c2d56761.css.map": "/businessbackup/static/css/main.c2d56761.css.map",
+    "main.ba78a056.js.map": "/businessbackup/static/js/main.ba78a056.js.map",
+    "787.5e8c21fe.chunk.js.map": "/businessbackup/static/js/787.5e8c21fe.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c2d56761.css",
+    "static/js/main.ba78a056.js"
+  ]
+}
