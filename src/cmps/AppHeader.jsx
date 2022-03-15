@@ -18,8 +18,8 @@ export function AppHeader() {
   window.addEventListener("scroll", changeBackground)
 
   return (
-    <header className="main-header">
-      <video autoPlay loop muted>
+    <header className="main-headelr">
+      <video autoPlay loop muted playsInline>
         <source src={HeroVideo} type="video/mp4"/>
       </video>
       <nav className={navbar ? "active-navbar" : ""}>
