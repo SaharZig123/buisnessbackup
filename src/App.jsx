@@ -1,4 +1,4 @@
-import { BrowserRouter, Route, Router, Routes } from "react-router-dom"
+import { HashRouter, Route, Router, Routes } from "react-router-dom"
 import "./assets/scss/global.scss"
 import AppFooter from "./cmps/AppFooter"
 import { AppHeader } from "./cmps/AppHeader"
@@ -8,7 +8,7 @@ import { HomePage } from "./pages/HomePage"
 
 function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <div className="App">
         <header>
           <AppHeader />
@@ -24,7 +24,7 @@ function App() {
           <AppFooter />
         </footer>
       </div>
-    </BrowserRouter>
+    </HashRouter>
   )
 }
 export default App
