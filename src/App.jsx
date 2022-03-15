@@ -8,16 +8,16 @@ import { HomePage } from "./pages/HomePage"
 
 function App() {
   return (
-    <HashRouter basename="/">
+    <HashRouter basename="/businessbackup">
       <div className="App">
         <header>
           <AppHeader />
         </header>
         <section>
           <Routes>
-            <Route path="/" element={<HomePage />}></Route>
-            <Route path="/about" element={<About />}></Route>
-            <Route path="/contact" element={<Contact />}></Route>
+            <Route path="/businessbackup" element={<HomePage />}></Route>
+            <Route path="/businessbackup/about" element={<About />}></Route>
+            <Route path="/businessbackup/contact" element={<Contact />}></Route>
           </Routes>
         </section>
         <footer>
