@@ -1,0 +1,81 @@
+.packages-container {
+  width: 100%;
+  direction: rtl;
+  margin-top: 40px;
+  .line {
+    border-bottom: 3px solid $clr1;
+    width: 20%;
+    padding-top: 20px;
+    margin: auto;
+    margin-bottom: 40px;
+  }
+  h1 {
+    font-size: 2.81rem;
+    margin-bottom: 10px;
+  }
+  h3 {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+  }
+  .cards-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+
+    .card {
+      position: relative;
+      border: 2px solid black;
+      h1 {
+        font-size: 2rem;
+      }
+      ul {
+        margin-bottom: 100px;
+      }
+
+      li {
+        padding-bottom: 10px;
+        font-size: 1.1rem;
+        text-align: right;
+      }
+      .title {
+        background-color: $clr1;
+        color: white;
+        padding-bottom: 2px;
+        padding-top: 10px;
+      }
+      .price {
+        font-size: 4rem;
+        color: $clr1;
+        span {
+          color: black;
+          font-size: 1rem;
+        }
+      }
+
+      button {
+          padding: 20px 30px 20px 30px;
+        position: absolute;
+        bottom: 10px;
+        left: 50%;
+        transform: translate(-50%);
+        font-size: 1.2rem;
+        background-color: transparent;
+        border: 2px solid $clr1;
+        color: $clr1;
+        transition: 0.3s;
+        &:hover {
+          background-color: $clr1;
+          border: none;
+          color: white;
+          border: 2px solid $clr1;
+        }
+      }
+
+      .long-line{
+          margin: auto;
+        border-bottom: 3px solid $clr1;
+        width: 80%;
+      }
+    }
+  }
+}

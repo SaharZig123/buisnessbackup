@@ -1,0 +1,82 @@
+.main-header {
+  text-align: center;
+  position: relative;
+  margin-bottom: 20px;
+  padding-bottom: 30px;
+  text-shadow: -1px 2px 14px rgba(0,0,0,0.64);
+  direction: rtl;
+  nav {
+    font-size: 1.3rem;
+    transition: 0.5s;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    position: fixed;
+    left: 50%;
+    transform: translate(-50%);
+    width: 100vw;
+  }
+
+  a {
+    color: white;
+    margin-inline-end: 40px;
+  }
+
+  .hero {
+    h1 {
+      font-size: 3.75rem;
+      padding-bottom: 10px;
+    }
+    .line {
+      border-bottom: 3px solid $clr1;
+      width: 10%;
+    }
+    h2 {
+      font-size: 2.18rem;
+    }
+    padding-top: 150px;
+    padding-bottom: 50px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    * {
+      margin-bottom: 20px;
+    }
+    p {
+      width: 45%;
+      line-height: 2;
+      font-size: 1.1rem;
+      margin-bottom: 35px;
+    }
+  }
+
+  button {
+    font-size: 1.2rem;
+    padding: 20px;
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+    transition: 0.3s;
+    &:hover{
+      background-color: $clr1;
+      border: none;
+      border: 2px solid $clr1;
+    }
+  }
+
+  .active-navbar {
+    background-color: $clr1;
+    z-index: 2;
+  }
+
+  video {
+    width: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    height: 100%;
+  }
+}

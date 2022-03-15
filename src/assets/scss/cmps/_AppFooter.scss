@@ -1,0 +1,23 @@
+.app-footer {
+  background-color: black;
+  color: white;
+  height: 40vh;
+  display: flex;
+  justify-content: center;
+  gap:40px;
+  align-items: center;
+  line-height: 2;
+  .about {
+    max-width: 40%;
+    h1{
+        color: $clr1;
+        margin-bottom: 15px;
+    }
+}
+.get-in-touch{
+    h1{
+        color: $clr1;
+        margin-bottom: 15px;
+    }
+}
+}
