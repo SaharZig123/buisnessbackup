@@ -1,23 +1,32 @@
 .app-footer {
   background-color: black;
   color: white;
-  height: 40vh;
   display: flex;
   justify-content: center;
-  gap:40px;
+  gap: 40px;
   align-items: center;
   line-height: 2;
+  padding-bottom: 30px;
   .about {
     max-width: 40%;
-    h1{
-        color: $clr1;
-        margin-bottom: 15px;
+    h1 {
+      color: $clr1;
+      margin-bottom: 15px;
     }
-}
-.get-in-touch{
-    h1{
-        color: $clr1;
-        margin-bottom: 15px;
+  }
+  .get-in-touch {
+    h1 {
+      color: $clr1;
+      margin-bottom: 15px;
     }
+  }
 }
+//mobile
+@media (max-width: 860px) {
+  .app-footer {
+    flex-direction: column;
+    .about {
+      max-width: 90%;
+    }
+  }
 }

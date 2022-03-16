@@ -3,16 +3,17 @@
   position: relative;
   margin-bottom: 20px;
   padding-bottom: 30px;
-  text-shadow: -1px 2px 14px rgba(0,0,0,0.64);
+  text-shadow: -1px 2px 14px rgba(0, 0, 0, 0.64);
   direction: rtl;
+  .close-icon{
+    display: none;
+  }
   nav {
     font-size: 1.3rem;
     transition: 0.5s;
     padding-top: 30px;
     padding-bottom: 30px;
     position: fixed;
-    left: 50%;
-    transform: translate(-50%);
     width: 100vw;
   }
 
@@ -46,9 +47,14 @@
     p {
       width: 45%;
       line-height: 2;
-      font-size: 1.1rem;
+      font-size: 1.3rem;
+      font-weight: 500;
       margin-bottom: 35px;
     }
+  }
+
+  .hamburger{
+    display: none;
   }
 
   button {
@@ -58,7 +64,7 @@
     border: 2px solid white;
     color: white;
     transition: 0.3s;
-    &:hover{
+    &:hover {
       background-color: $clr1;
       border: none;
       border: 2px solid $clr1;
@@ -78,5 +84,53 @@
     left: 0;
     z-index: -1;
     height: 100%;
+  }
+}
+
+//Hamburger nav-bar in mobile
+
+@media (max-width: 860px) {
+  .main-header {
+    .close-icon{
+      display: block;
+      margin-bottom: 40px;
+    }
+    .hamburger{
+      display:block;
+      position: absolute;
+      right: 30px;
+      top: 30px;
+      height: 40px;
+    }
+    nav{
+      right: -100%;
+      transition: .3s;
+    }
+    .active-hamburger {
+
+      width: auto;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      position: absolute;
+      right: 0;
+      top: 0;
+      padding: 40px;
+      height: 100vh;
+      background-color: black;
+      z-index: 10;
+      a {
+        margin: 0;
+        margin-bottom: 40px;
+      }
+    }
+
+    .hero{
+      padding-top: 100px;
+      p{
+        font-size: 1.2rem;
+        width: 90%;
+      }
+    }
   }
 }
