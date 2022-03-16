@@ -48,9 +48,15 @@ export function AppHeader() {
           color="white"
           icon={faX}
         />
-        <NavLink to="/">ראשי</NavLink>
-        <NavLink to="/about">אודותינו</NavLink>
-        <NavLink to="/contact">צור קשר</NavLink>
+        <NavLink onClick={toggleHamburger} to="/">
+          ראשי
+        </NavLink>
+        <NavLink onClick={toggleHamburger} to="/about">
+          אודותינו
+        </NavLink>
+        <NavLink onClick={toggleHamburger} to="/contact">
+          צור קשר
+        </NavLink>
         <a href="https://granitcorp.com/">GranitCorp</a>
       </nav>
       <section className="hero">
