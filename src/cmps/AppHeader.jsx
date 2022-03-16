@@ -1,7 +1,7 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faBars } from "@fortawesome/free-solid-svg-icons"
 import { faX } from "@fortawesome/free-solid-svg-icons"
-import { useState } from "react"
+import { useEffect, useState } from "react"
 import { NavLink } from "react-router-dom"
 import HeroVideo from "../assets/videos/video.mp4"
 import jsonData from "../data/data.json"
@@ -22,6 +22,12 @@ export function AppHeader() {
     setHamburgerNav(!hamburgerNav)
   }
 
+  useEffect(() => {
+    if (hamburgerNav) {
+      document.body.style.overflow = "hidden"
+    } else document.body.style.overflow = "scroll"
+  }, [hamburgerNav])
+
   window.addEventListener("scroll", changeBackground)
 
   return (
@@ -32,7 +38,7 @@ export function AppHeader() {
         color="white"
         icon={faBars}
       />
-      <video autoPlay loop>
+      <video autoPlay loop muted>
         <source src={HeroVideo} type="video/mp4" />
       </video>
       <nav className={navbar ? "active-navbar" : "" || hamburgerNav ? "active-hamburger" : ""}>
